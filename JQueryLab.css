@@ -1,0 +1,88 @@
+html {
+    font-family: 'Acme', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(http://www.bookatable.co.uk/blog/wp-content/uploads/sites/2/2015/07/Dim-T.jpg);
+    background-size: cover;
+}
+#header {
+    background-color: rgba(204, 181, 181, .75);
+    height: 700px;
+    width: 460px;
+    z-index: 1;
+    position: fixed;
+    border-radius: 5px;
+}
+h1 {
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    display: block;
+    text-align: center;
+    color: #E34E45;
+}
+h3 {
+    display: block;
+    text-align: center;
+}
+.buttons {
+    display: wrap;
+    flex-direction: row;
+    align-items: center;
+    height: 90px;
+    width: 90px;
+    margin: 25px 25px 25px 25px;
+    border-radius: 50%;
+    font-size: 40px;
+}
+.form {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 400px;
+    width: 500px;
+    padding: 25px 25px;
+    margin: 5px -50px;
+    z-index: 2;
+    border-style: solid;
+    border-width: 2px 2px;
+    box-shadow: rgba(0, 0, 0, .25) 3px 3px 3px;
+    border-radius: 5px;
+}
+#btns {
+    background-color: rgba(214, 214, 214, 0.9);
+    margin-left: 15px;
+    margin-right: auto;
+    position: fixed;
+    width: 430px;
+    height: 430px;
+    border-radius: 5px;
+}
+#close {
+    background-color: rgba(255, 255, 255, 1);
+    margin-left: 475px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: -35px;
+}
+#name, #number, #partySize {
+    margin: 10px 0px;
+    padding: 5px 5px;
+    width: 100%;
+}
+#top {
+    color: #E34E45;
+    font-size: 28px;
+}
+#submit {
+    margin-top: 55px;
+    margin-bottom: 0px;
+    background-color: #008000;
+    border-radius: 20px;
+    height: 40px;
+}
